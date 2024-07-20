@@ -1,21 +1,28 @@
 import React from 'react'
-import { Grid, Toolbar , Container} from '@mui/material'; 
+import { Grid, Toolbar , Container, Box} from '@mui/material'; 
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 
 const StyledToolbar = styled(Toolbar)`
-  display="flex"
-  justifyContent="center"
-  alignItems="center";
-   padding: 20px 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+ 
 `;
 
 const StyledNavLink = styled(NavLink)`
-  font-size: 20px;
+  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vh;
   text-decoration: none;
   color: #FFFF;
-  padding: 20px 40px;
+  margin: 10px;
+  padding: 10px 10px;
   font-family: Merriweather;
   &.active {
     font-weight: bold;
@@ -25,17 +32,17 @@ const StyledNavLink = styled(NavLink)`
 export default function Header() {
   return (
     <StyledToolbar>
-      <Container maxWidth="lg" >
-            <StyledNavLink to="/" exact activeClassName="active">
+        <StyledNavLink to="/" exact activeClassName="active">
               HOME
             </StyledNavLink>
             <StyledNavLink to="/about" activeClassName="active">
               ABOUT ME
             </StyledNavLink>
-            <StyledNavLink to="/products" activeClassName="active">
+            <StyledNavLink to="/contact" activeClassName="active">
               CONTACT
-            </StyledNavLink>
-      </Container>
+      </StyledNavLink>
+
     </StyledToolbar>
+    
   )
 }

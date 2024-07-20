@@ -18,7 +18,33 @@ const userData = {
       webDevelopment: "React, Node.js, HTML, CSS",
       database: "MySQL, SQL Server, Oracle",
     },
+    programmingKnowledge: 
+    [{
+        title: "Programming Languages",
+        items: [
+          "C/C++ programming (object-oriented)",
+          "Backend programming with NodeJs (Express framework)",
+          "Frontend programming with ReactJs",
+          "Python programming (through projects)"
+        ]
+      },
+      {
+        title: "Databases",
+        items: [
+          "MySQL",
+          "SQL Server",
+          "Oracle"
+        ]
+      },
+      {
+        title: "Database Management Systems",
+        items: [
+          "Database management systems (MS SQL Server)",
+          "Security mechanisms in Oracle database management systems"
+        ]
+      }],
+        
     goal: "I want to become a Full Stack Developer",
-    bio: "I am Huỳnh Minh Quang, a passionate and dedicated third-year Information Technology student at the University of Science in Ho Chi Minh City. With a strong foundation in programming languages such as JavaScript, Python, and Java, I have honed my skills in web development using modern frameworks like React and Node.js. My goal is to become a proficient Full Stack Developer, capable of building and maintaining scalable web applications. I am committed to continuous learning and staying updated with the latest industry trends to deliver efficient and innovative solutions.",
+    whoIAm: " I am Huynh Minh Quang, a third-year student majoring in Information Systems at the University of Science, Vietnam National University, Ho Chi Minh City. With a solid foundation in programming languages ​​such as C++, JavaScript, and Python, I have honed my web development skills using modern frameworks such as React and Node.js. My goal is to become a proficient Full Stack Developer, capable of building and maintaining scalable web applications. My commitment to continuous learning and enthusiasm for innovative solutions drive me to grow in my field. I am dedicated to providing effective and innovative solutions to complex problems, with the goal of making a positive impact through technology.",
   };
   export default userData;
