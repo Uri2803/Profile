@@ -23,13 +23,12 @@ const DivAvatar = styled.div`
 const StyledAvatar = styled.img`
   width: 300px;
   height: 300px;
-  border-radius: 50%; /* Bo tròn hình ảnh */
+  border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
   transition: transform 0.3s ease ease;
   &:hover {
     transform: scale(1.1);
-   
   }
 `;
 
