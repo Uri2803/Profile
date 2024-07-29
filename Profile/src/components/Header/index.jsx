@@ -10,7 +10,6 @@ const StyledToolbar = styled(Toolbar)`
   justify-content: center;
   align-items: center;
   flex-direction: row;
- 
 `;
 
 const StyledNavLink = styled(NavLink)`
