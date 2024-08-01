@@ -132,9 +132,7 @@ export default function Aboutme({user}) {
                     {section.items.map((item, index) => (
                         <TextInfor key={index}>+ {item}</TextInfor>
                     ))}
-                    </TextInfor>
-                            
-                        
+                    </TextInfor> 
                 </div>
                 ))}
             </InfoContainer>

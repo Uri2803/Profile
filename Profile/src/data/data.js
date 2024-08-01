@@ -14,8 +14,8 @@ const userData = {
       currentYear: 3,
     },
     skills: {
-      programming: "JavaScript, Python, Java",
-      webDevelopment: "React, Node.js, HTML, CSS",
+      programming: "C++, JavaScript, Python",
+      webDevelopment: "ReactJS, NodeJs, HTML, CSS",
       database: "MySQL, SQL Server, Oracle",
     },
     programmingKnowledge: 
